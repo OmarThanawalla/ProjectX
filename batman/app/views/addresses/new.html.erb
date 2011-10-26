@@ -1,0 +1,16 @@
+this is new.html.erb <br />
+
+<%= form_tag(:action=> 'create') do %>
+	City
+	<%= text_field(:address, :city) %>
+	<br /> 
+	State
+	<%= text_field(:address, :state) %> 
+	<br />
+	Zip Code
+	<%= text_field(:address, :zip_code) %> 
+	<br />
+	<%= submit_tag("create address") %> 
+	
+<% end %>
+

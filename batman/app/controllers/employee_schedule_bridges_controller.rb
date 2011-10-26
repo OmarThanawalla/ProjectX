@@ -1,0 +1,2 @@
+class EmployeeScheduleBridgesController < ApplicationController
+end

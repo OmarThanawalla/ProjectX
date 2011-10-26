@@ -1,0 +1,14 @@
+this is delete.html.erb <br />
+
+
+
+<%= @address.city %> <br />
+<%= @address.state %> <br />
+<%= @address.zip_code %> <br />
+<%= @address.created_at %> <br />
+<%= @address.updated_at %> <br />
+
+
+<%= form_tag(:action=> 'destroy', :id => @address.id) do %>
+<%= submit_tag("destroy address") %> 
+<% end %>

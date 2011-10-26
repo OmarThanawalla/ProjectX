@@ -1,0 +1,2 @@
+module AppointmentServicesBridgesHelper
+end
