@@ -1,0 +1,2 @@
+class UserConvoBridgesController < ApplicationController
+end
